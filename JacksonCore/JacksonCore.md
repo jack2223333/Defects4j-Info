@@ -1,0 +1,7 @@
+## JacksonCore
+
+This project contains core low-level incremental ("streaming") parser and generator abstractions used by [Jackson Data Processor](https://github.com/FasterXML/jackson). It also includes the default implementation of handler types (parser, generator) that handle JSON format. The core abstractions are not JSON specific, although naming does contain 'JSON' in many places, due to historical reasons. Only packages that specifically contain word 'json' are JSON-specific.
+
+This package is the base on which [Jackson data-binding](https://github.com/FasterXML/jackson-databind) package builds on. It is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+Alternate data format implementations (like [Smile (binary JSON)](https://github.com/FasterXML/jackson-dataformats-binary/tree/master/smile), [XML](https://github.com/FasterXML/jackson-dataformat-xml), [CSV](https://github.com/FasterXML/jackson-dataformats-text/tree/master/csv), [Protobuf](https://github.com/FasterXML/jackson-dataformats-binary/tree/master/protobuf), and [CBOR](https://github.com/FasterXML/jackson-dataformats-binary/tree/master/cbor)) also build on this base package, implementing the core interfaces, making it possible to use standard [data-binding package](https://github.com/FasterXML/jackson-databind) regardless of underlying data format.

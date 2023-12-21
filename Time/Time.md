@@ -1,0 +1,5 @@
+## Time
+
+Joda-Time provides a quality replacement for the Java date and time classes. The design allows for multiple calendar systems, while still providing a simple API. The 'default' calendar is the ISO8601 standard which is used by XML. The Gregorian, Julian, Buddhist, Coptic, Ethiopic and Islamic systems are also included. Supporting classes include time zone, duration, format and parsing.
+
+**Joda-time is no longer in active development except to keep timezone data up to date.** From Java SE 8 onwards, users are asked to migrate to `java.time` (JSR-310) - a core part of the JDK which replaces this project. For Android users, `java.time` is [added in API 26+](https://developer.android.com/reference/java/time/package-summary). Projects needing to support lower API levels can use [the ThreeTenABP library](https://github.com/JakeWharton/ThreeTenABP).

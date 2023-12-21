@@ -1,0 +1,3 @@
+## **Chart**
+
+A free Java chart library. JFreeChart supports pie charts (2D and 3D), bar charts (horizontal and vertical, regular and stacked), line charts, scatter plots, time series charts, high-low-open-close charts, candlestick plots, Gantt charts, combined plots, thermometers, dials and more. JFreeChart can be used in client-side and server-side applications. This project is maintained by David Gilbert.
