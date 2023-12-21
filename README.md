@@ -17,6 +17,6 @@
 15. Math ：https://commons.apache.org/proper/commons-math/
 16. Mockito ：https://site.mockito.org/
 17. Time ：https://github.com/JodaOrg/joda-time
-一些其他想法：什么样的信息能帮助我更好地了解这个项目？
-1. 从一个user的角度看，给出这个库的使用方法(代码示例，以及运行效果)，可以让我有更好的了解它做了什么
-2. 给出每个文件夹的作用
+ 一些其他想法：什么样的信息能帮助我更好地了解这个项目？
+  1. 从一个user的角度看，给出这个库的使用方法(代码示例，以及运行效果)，可以让我有更好的了解它做了什么
+  2. 给出每个文件夹的作用
